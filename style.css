@@ -1,0 +1,18 @@
+body {
+    font-family: Comic Sans MS;
+}
+
+.img-galery {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.img-galery:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.img-selected {
+    width: 100%;
+    height: auto;
+}
